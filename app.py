@@ -268,12 +268,12 @@ if __name__ == "__main__":
     load_dotenv("variables.env")
     
     # Variables and creds
-    username = st.secrets['username']
-    password = st.secrets['password']
-    mob = st.secrets['mob']  # Type your mobile number here
-    sender_email = st.secrets['sender_email']
-    receiver_email = st.secrets['receiver_email']
-    mail_password = st.secrets['mail_password']
+    username = os.getenv('username')
+    password = os.getenv('password')
+    mob = os.getenv('mob')  # Type your mobile number here
+    sender_email = os.getenv('sender_email')
+    receiver_email = os.getenv('receiver_email')
+    mail_password = os.getenv('mail_password')
 
     path = os.getcwd()
     resumePath = path + r"/CV.pdf"
