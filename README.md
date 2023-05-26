@@ -11,6 +11,14 @@ This script daily updates the resume on your Naukri profile so as to increase yo
 - Add your own resume in pdf format.
 - Execute app.py
 
+# Create Batch file :
+- Open The Notepad and paste the below code.
+    
+      @echo off
+      "Path where your Python exe is stored\python.exe" "Path where your Python script is stored\script name.py"
+      pause
+- Save the file with name "naukari.bat".
+
 # Schedule the Python Script using the Windows Scheduler :
 - Open the Windows Control Panel and then click on the Administrative Tools.
 - Double-click on the Task Scheduler, and then choose the option to ‘Create Basic Task…’
@@ -19,7 +27,7 @@ This script daily updates the resume on your Naukri profile so as to increase yo
        Run app.py
 - Choose to start the task ‘Daily‘ since we wish to run the Python script daily at 6am. Also specify the start date and time (6am for our example)
 - Select, Start a program, and then press Next
-- Use the Browse button to find the batch file (naukari.bat) that runs the Python script. In our case:
+- Use the Browse button to find the batch file that we created earlier(naukari.bat) that runs the Python script. In our case:
                 
         C:\Users\srivastavas08\Desktop\naukari.bat
 
