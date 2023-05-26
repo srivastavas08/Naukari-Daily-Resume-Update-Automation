@@ -1,6 +1,4 @@
 webdriver_manager
 selenium
-smtplib
 webdriver_manager
 streamlit
-
