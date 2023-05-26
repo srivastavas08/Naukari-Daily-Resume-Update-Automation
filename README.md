@@ -14,7 +14,9 @@ This script daily updates the resume on your Naukri profile so as to increase yo
 # Schedule the Python Script using the Windows Scheduler :
 - Open the Windows Control Panel and then click on the Administrative Tools.
 - Double-click on the Task Scheduler, and then choose the option to ‘Create Basic Task…’
-- Type a name for your task (you can also type a description if needed), and then press Next. For instance, let’s name the task as: Run app.py
+- Type a name for your task (you can also type a description if needed), and then press Next. For instance, let’s name the task as: 
+
+       Run app.py
 - Choose to start the task ‘Daily‘ since we wish to run the Python script daily at 6am. Also specify the start date and time (6am for our example)
 - Select, Start a program, and then press Next
 - Use the Browse button to find the batch file (naukari.bat) that runs the Python script. In our case:
