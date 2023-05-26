@@ -17,6 +17,6 @@ This script daily updates the resume on your Naukri profile so as to increase yo
 - Choose to start the task ‘Daily‘ since we wish to run the Python script daily at 6am. Also specify the start date and time (6am for our example)
 - Select, Start a program, and then press Next
 - Use the Browse button to find the batch file (naukari.bat) that runs the Python script. In our case:
-                C:\Users\srivastavas08\Desktop\run_python_script.bat
+                C:\Users\srivastavas08\Desktop\naukari.bat
 
 Incase of any additional querries or concerns drop an email at srivastavas08@gmail.com.
