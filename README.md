@@ -3,14 +3,14 @@
 This has created only for educational purpose.
 This script daily updates the resume on your Naukri profile so as to increase your profiles visibility for recruiters. Once the script will be successfully executed you will be notified over the email.
 
-#HOW TO USE :
+# HOW TO USE :
 - Clone the repository :
                 git clone https://github.com/srivastavas08/Naukari-Daily-Resume-Update-Automation.git
 - update the environment variables with your own credentials.
 - Add your own resume in pdf format.
 - Execute app.py
 
-#Schedule the Python Script using the Windows Scheduler.
+# Schedule the Python Script using the Windows Scheduler.
 - Open the Windows Control Panel and then click on the Administrative Tools.
 - Double-click on the Task Scheduler, and then choose the option to ‘Create Basic Task…’
 - Type a name for your task (you can also type a description if needed), and then press Next. For instance, let’s name the task as: Run app.py
