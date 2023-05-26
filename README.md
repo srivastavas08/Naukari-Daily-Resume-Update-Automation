@@ -31,4 +31,6 @@ This script daily updates the resume on your Naukri profile so as to increase yo
                 
         C:\Users\srivastavas08\Desktop\naukari.bat
 
+Please note the server should be up and running for this automation to work otherwise it will fail.
+
 Incase of any additional querries or concerns drop an email at srivastavas08@gmail.com.
